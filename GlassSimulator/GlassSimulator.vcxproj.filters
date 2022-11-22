@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{3eec3443-9171-4a3c-b1ed-2d237fef303f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_impl_glfw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_impl_opengl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Processes\GraphProcess\GraphsProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\BatchRendering\FrameBuffer\ImageFrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\BatchRendering\RenderUnits\ru_clearTg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\BatchRendering\FrameViewManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\BatchRendering\GLBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\BatchRendering\InputBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\Helpers\Helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\TextRendering\TextRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\GLAD\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\stb_image\std_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\RenderSpace\view_renderSpace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\CameraModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\RenderModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\BatchRendering\RenderUnits\ru_drawGlass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\3DAuxiliaryFunctions\PlaneTriangulation\PlaneTriangulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\GlassSimulation\Splinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\3DAuxiliaryFunctions\PointsGenerators\PointsInsideTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\3DAuxiliaryFunctions\Helpers\GraphicHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\GlassSimulation\GlassLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_impl_glfw.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_impl_opengl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_impl_opengl3_loader.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyFiles\dev\CPPDEV\Projects\ImGuiProjects\imguitest\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Processes\GraphProcess\GraphsProcess.h" />
+    <ClInclude Include="Application\Processes\Relations\ModRel_Graph_RenderSpace.h" />
+    <ClInclude Include="Application\Application.h" />
+    <ClInclude Include="Services\3DAuxiliaryFunctions\Camera.h" />
+    <ClInclude Include="Services\BatchRendering\FrameBuffer\ImageFrameBuffer.h" />
+    <ClInclude Include="Services\BatchRendering\RenderUnits\ru_clearTg.h" />
+    <ClInclude Include="Services\BatchRendering\FrameViewManager.h" />
+    <ClInclude Include="Services\BatchRendering\GLBuffer.h" />
+    <ClInclude Include="Services\BatchRendering\GraphicEnums.h" />
+    <ClInclude Include="Services\BatchRendering\InputBuffer.h" />
+    <ClInclude Include="Services\BatchRendering\RenderUnit.h" />
+    <ClInclude Include="Services\GraphicStructs\GraphicEnums.h" />
+    <ClInclude Include="Services\GraphicStructs\GraphicStructs.h" />
+    <ClInclude Include="Services\Helpers\Event.h" />
+    <ClInclude Include="Services\Helpers\Helpers.h" />
+    <ClInclude Include="Services\Helpers\Macroses.h" />
+    <ClInclude Include="Services\Helpers\trait_is_right_callable.h" />
+    <ClInclude Include="Services\Shader\shader_s.h" />
+    <ClInclude Include="Services\TextRendering\TextRender.h" />
+    <ClInclude Include="Vendor\stb_image\stb_image.h" />
+    <ClInclude Include="Views\RenderSpace\view_renderSpace.h" />
+    <ClInclude Include="Modules\CameraModule.h" />
+    <ClInclude Include="Application\Processes\Relations\ModRel_Camera_RendSpace.h" />
+    <ClInclude Include="Modules\RenderModule.h" />
+    <ClInclude Include="Services\BatchRendering\RenderUnits\ru_drawGlass.h" />
+    <ClInclude Include="Services\3DAuxiliaryFunctions\PlaneTriangulation\PlaneTriangulator.h" />
+    <ClInclude Include="Services\GlassSimulation\Splinter.h" />
+    <ClInclude Include="Services\3DAuxiliaryFunctions\PointsGenerators\PointsInsideTriangle.h" />
+    <ClInclude Include="Services\3DAuxiliaryFunctions\Helpers\GraphicHelpers.h" />
+    <ClInclude Include="Services\GlassSimulation\GlassLogic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fshad.fs" />
+    <None Include="Shaders\fshad1.fs" />
+    <None Include="Shaders\vshad.vs" />
+    <None Include="Vendor\vshad1.vs" />
+  </ItemGroup>
+</Project>
